@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: doc
+
+website:
+  title: "firefighter_project"
+  navbar:
+    left:
+      - href: fire_presentation.qmd
+        text: presentation
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
