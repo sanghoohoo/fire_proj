@@ -422,7 +422,7 @@ injury_all.head()
 
 ```{python}
 death_all["ratio"].plot.bar(rot=0)
-plt.xticks(fontsize=5, rotation=20)
+plt.xticks(fontsize=7, rotation=20)
 plt.show()
 plt.clf()
     
@@ -436,7 +436,7 @@ plt.clf()
 
 ```{python}
 injury_all["ratio"].plot.bar(rot=0)
-plt.xticks(fontsize=5, rotation=20)
+plt.xticks(fontsize=7, rotation=20)
 plt.show()
 plt.clf()
 
